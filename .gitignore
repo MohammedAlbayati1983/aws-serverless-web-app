@@ -1,0 +1,9 @@
+# Terraform (Future)
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# IDE
+.vscode/
+.idea/
