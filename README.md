@@ -31,4 +31,5 @@ A production-grade, fully serverless web application hosted on AWS. This project
 ├── architecture/          # Architecture diagrams
 ├── screenshots/           # AWS Console screenshots (proof of implementation)
 ├── documentation/         # Requirements & design decisions
+├── testing/               # Connectivity & validation tests
 └── infrastructure-as-code/ # (Planned) Terraform implementation
