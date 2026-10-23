@@ -33,3 +33,5 @@ A production-grade, fully serverless web application hosted on AWS. This project
 ├── documentation/         # Requirements & design decisions
 ├── testing/               # Connectivity & validation tests
 └── infrastructure-as-code/ # (Planned) Terraform implementation
+```
+
