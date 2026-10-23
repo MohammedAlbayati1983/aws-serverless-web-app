@@ -34,4 +34,36 @@ A production-grade, fully serverless web application hosted on AWS. This project
 ├── testing/               # Connectivity & validation tests
 └── infrastructure-as-code/ # (Planned) Terraform implementation
 ```
+🛠️ Implementation Summary
+Manual Provisioning: All resources were manually provisioned via the AWS Management Console to ensure a deep understanding of serverless integrations.
 
+Testing: Validated end-to-end functionality (Frontend -> API Gateway -> Lambda -> DynamoDB) and tested WAF rules by successfully blocking traffic from a specific country.
+
+Documentation: Detailed design decisions and requirements are available in the documentation/ folder.
+
+📸 Screenshots
+All 14 implementation screenshots are available in the screenshots/ folder.
+
+📘 Lessons Learned
+Serverless architectures eliminate the need for server management and reduce costs to near zero when idle.
+
+API Gateway CORS settings are crucial for enabling frontend-to-backend communication.
+
+AWS WAF provides granular control over traffic (e.g., geographic blocking) without modifying the application code.
+
+CloudFront requires HTTP-only origin protocol when pointing to an S3 Static Website endpoint.
+
+🚀 Future Enhancements
+Infrastructure as Code: Automate the entire infrastructure using Terraform.
+
+Authentication: Add Amazon Cognito for user sign-up and sign-in.
+
+CI/CD: Implement a pipeline (e.g., GitHub Actions) to automate frontend deployments to S3.
+
+📄 License
+This project is licensed under the MIT License - see the LICENSE file.
+
+👤 Author
+Mohammed Al-Bayati
+
+GitHub: @MohammedAlbayati1983
